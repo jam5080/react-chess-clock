@@ -1,0 +1,73 @@
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  margin: 0;
+  background-color: white;
+  font-family: "Roboto";
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 117px;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Roboto";
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 117px;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style button*/
+.btn {
+  background: #326bff;
+  border-radius: 4px;
+  width: 197px;
+  height: 75px;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  line-height: 28px;
+  text-align: center;
+}
+.hidden {
+    display: none;
+  }
+
+.split2 {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
